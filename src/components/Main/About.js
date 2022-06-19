@@ -39,15 +39,15 @@ const AboutText = styled.div`
 `
 const Title = styled.h3`
   color: #373737;
-  font-size: 3.5vh;
+  font-size: 40px;
   letter-spacing: 1.72px;
   text-align: center;
 `
 const Text = styled.p`
   margin-top: 120px;
   color: #373737;
-  font-size: 2vh;
-  width: 500px;
+  font-size: 20px;
+  width: 530px;
 `
 
 export default function About(){
