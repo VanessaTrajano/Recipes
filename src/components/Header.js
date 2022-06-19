@@ -19,12 +19,17 @@ export default function Header() {
         width: 100%;
         height: 150vh;
         background-image: url(${background});
-        background-size: 100% 150vh;
+        background-size: 98% 146vh;
         background-repeat: no-repeat;
+        background-position: center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
     `
 
     const NavBox = styled.div`
-        width: 100%;
+        width: 98%;
         height: 20vh;
         display:flex;
         justify-content: space-between;
@@ -45,7 +50,7 @@ export default function Header() {
     const Navigation = styled.ul`
         display: flex;
         list-style: none;
-        font-size: 3.5vh;
+        font-size: 3vh;
         width: 100%;
         height: 100%;
         justify-content: space-evenly;
@@ -62,7 +67,7 @@ export default function Header() {
             
             &:hover{
                 font-weight: bold;
-                border: 2px solid #373737;
+                border: 3px solid #373737;
             }
         }
     `
@@ -84,9 +89,9 @@ export default function Header() {
 
                 <nav>
                     <Navigation>
-                        <li>About</li>
-                        <li>Recipes</li>
-                        <li>Subscribe</li>
+                        <li>ABOUT</li>
+                        <li>RECIPES</li>
+                        <li>SUBSCRIBE</li>
                     </Navigation>
                 </nav>
             </NavBox>
